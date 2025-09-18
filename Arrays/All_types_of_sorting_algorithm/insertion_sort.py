@@ -1,5 +1,6 @@
 """Insertion sort is a type of sorting algorithm which also sorts array in ascending order but it shifts value one by one,
-it sorts array iteratively """
+it sorts array iteratively and its time complexity is also O(n^2)"""
+
 my_array = [11,4,3,12,18,9,10,45,66]
 n = len(my_array)
 for i in range(1,n):   #loop from index 1 to n
